@@ -21,6 +21,10 @@ ol {
   @extend %default-ol;
 }
 
+ul {
+  @extend %default-ul;
+}
+
 dl {
   margin-bottom: $small-spacing;
 
