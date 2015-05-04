@@ -8,6 +8,10 @@
   }
 
   .footer-photo {
+    @include media($medium-screen-up) {
+      @include span-columns(1);
+    }
+
     text-align: center;
 
     img {
@@ -21,11 +25,22 @@
     .name {
       margin: $small-spacing 0;
       text-align: center;
+
+      @include media($medium-screen-up) {
+        margin-top: 0;
+        text-align: left;
+      }
     }
 
     p {
       text-align: left;
     }
+
+    @include media($medium-screen-up) {
+      @include span-columns(3);
+      @include omega();
+    }
+
   }
 
   .social-links {
@@ -38,6 +53,10 @@
       &:not(:first-child) {
         padding-left: 1em;
       }
+    }
+
+    @include media($medium-screen-up) {
+      text-align: left;
     }
   }
 }
