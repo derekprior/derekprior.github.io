@@ -4,4 +4,8 @@
   h2 {
     font-size: 1.5em;
   }
+
+  ul {
+    @extend %default-ul;
+  }
 }
