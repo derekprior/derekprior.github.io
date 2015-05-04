@@ -1,0 +1,15 @@
+# Site settings
+title: Prioritized.net
+email: derekprior@gmail.com
+description: >
+  by Derek Prior, an experienced web developer based in Boston.
+baseurl: ""
+url: "http://prioritized.net"
+permalink: "/blog/:title"
+twitter_username: derekprior
+github_username:  derekprior
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart"]

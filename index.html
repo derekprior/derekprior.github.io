@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li class="post-list-item">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <time class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</time>
+        <h2 class="post-title">{{ post.title }}</h2>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary | strip_html }}
+          {% else %}
+            {{ post.excerpt | strip_html }}
+          {% endif %}
+        </p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

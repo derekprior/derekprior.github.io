@@ -1,0 +1,29 @@
+.post-list {
+  padding: 2em;
+}
+
+.post-list-item {
+  border-bottom: thin solid lighten($light-gray, 50%);
+  margin-bottom: $base-spacing;
+}
+
+.post-link {
+  color: $base-font-color;
+
+  &:hover {
+    color: $base-font-color;
+  }
+}
+
+.post-meta {
+  color: $light-gray;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 300;
+  padding: $small-spacing 0;
+}
+
+.post-title {
+  font-size: 2.0em;
+  font-weight: 600;
+}

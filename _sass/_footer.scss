@@ -1,0 +1,43 @@
+.site-footer {
+  background-color: #fafafa;
+  border-top: 1px solid #f7f7f7;
+  color: $light-gray;
+
+  .container {
+    padding: 2em;
+  }
+
+  .footer-photo {
+    text-align: center;
+
+    img {
+      border-radius: 100%;
+      max-height: 80px;
+      max-width: 80px;
+    }
+  }
+
+  .footer-bio {
+    .name {
+      margin: $small-spacing 0;
+      text-align: center;
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .social-links {
+    text-align: center;
+
+    a {
+      color: $light-gray;
+      margin-bottom: $small-spacing;
+
+      &:not(:first-child) {
+        padding-left: 1em;
+      }
+    }
+  }
+}
