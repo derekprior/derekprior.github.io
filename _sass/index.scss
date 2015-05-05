@@ -10,8 +10,28 @@
 .post-link {
   color: $base-font-color;
 
-  &:hover {
-    color: $base-font-color;
+  h2 {
+    margin-bottom: $small-spacing/2;
+  }
+
+  @include media($large-screen-up) {
+    &.external {
+      display: block;
+
+      &.thoughtbot {
+        &:before {
+          background: url("ralph.png") no-repeat;
+          background-size: cover;
+          content: " ";
+          display: inline-block;
+          height: 26px;
+          margin-left: -3em;
+          margin-top: 12px;
+          position: absolute;
+          width: 26px;
+        }
+      }
+    }
   }
 }
 
