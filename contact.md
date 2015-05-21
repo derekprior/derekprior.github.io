@@ -14,8 +14,8 @@ If you would prefer to encrypt this communication, you can use my [public key].
      method="POST" class="contact-form">
   <input type="hidden" name="utf8" value="✓">
   <label for="email">Your Email Address:</label>
-  <input type="text" name="email" required="required">
+  <input type="text" id="email" name="email" required="required">
   <label for="message">What would you like to say?</label>
-  <textarea name="message" required="required" rows="6"></textarea>
+  <textarea name="message" id="message" required="required" rows="6"></textarea>
   <button type="submit">Send It</button>
 </form>
