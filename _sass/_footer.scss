@@ -1,7 +1,7 @@
 .site-footer {
   background-color: #fafafa;
   border-top: 1px solid #f7f7f7;
-  color: $light-gray;
+  color: #737373;
 
   .container {
     padding: 2em;
@@ -47,7 +47,7 @@
     text-align: center;
 
     a {
-      color: $light-gray;
+      color: #737373;
       margin-bottom: $small-spacing;
 
       &:not(:first-child) {
