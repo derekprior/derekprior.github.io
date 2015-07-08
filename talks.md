@@ -28,7 +28,7 @@ with the reviews you leave for others, yielding your own strong code review
 culture.
 
 * [Given at RailsConf][railsconf], April 21, 2015.
-* Upcomming at Boston Ruby, May 12, 2015.
-* Upcomming at Austin on Rails, June 23, 2015.
+* Given at Boston Ruby, May 12, 2015.
+* Given at Austin on Rails, June 23, 2015.
 
 [railsconf]: https://www.youtube.com/watch?v=PJjmw9TRB7s
