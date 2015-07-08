@@ -11,7 +11,9 @@ If you would prefer to encrypt this communication, you can use my [public key].
 <form
      accept-charset="UTF-8"
      action="https://formkeep.com/f/31564470a717"
-     method="POST" class="contact-form">
+     method="POST"
+     class="contact-form"
+     role="form">
   <input type="hidden" name="utf8" value="✓">
   <label for="email">Your Email Address:</label>
   <input type="text" id="email" name="email" required="required">
