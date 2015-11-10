@@ -5,11 +5,12 @@ permalink: /talks/
 ---
 
 You can hear me talk about things on a weekly basis if you tune into [The Bike
-Shed], a technical discussion podcast I cohost with my friend [Sean Griffin].
-I've also given the following prepared talks.
+Shed], a technical discussion podcast I co-host with my friends [Sean Griffin]
+and [Laila Winner]. I've also given the following prepared talks.
 
 [The Bike Shed]: http://bikeshed.fm
 [Sean Griffin]: https://twitter.com/sgrif
+[Laila Winner]: https://twitter.com/malandr1na
 
 ## Cultivating a Code Review Culture
 
