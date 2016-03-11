@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "redcarpet"
-gem "coderay"
+gem "jekyll", "~> 3.0"
 gem "neat"
 gem "bitters"
+gem "rouge"

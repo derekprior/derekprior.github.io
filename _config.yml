@@ -9,7 +9,9 @@ permalink: "/blog/:title"
 twitter_username: derekprior
 github_username:  derekprior
 
-# Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["smart"]
+# build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
