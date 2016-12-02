@@ -9,15 +9,19 @@ If you would prefer to encrypt this communication, you can use my [public key].
 [public key]: http://pgp.mit.edu/pks/lookup?op=get&search=0x60D9C7F1019704B4
 
 <form
-     accept-charset="UTF-8"
-     action="https://asimpleform.com/p/a883e17f-6a95-4d2d-a411-7d703eb0349b"
-     method="POST"
-     class="contact-form"
-     role="form">
-  <input type="hidden" name="utf8" value="✓">
+    accept-charset="UTF-8"
+    action="https://asimpleform.com/p/a883e17f-6a95-4d2d-a411-7d703eb0349b"
+    method="post"
+    class="contact-form"
+    role="form">
+  <input type="hidden" name="name" value="A Simple Form">
+  <input type="hidden" name="subject" value="Prioritized.net contact form submission">
+
   <label for="email">Your Email Address:</label>
-  <input type="text" id="email" name="email" required="required">
-  <label for="message">What would you like to say?</label>
-  <textarea name="message" id="message" required="required" rows="6"></textarea>
+  <input type="email" id="email" name="email" required="required">
+
+  <label for="body">What would you like to say?</label>
+  <textarea name="body" id="message" required="required" rows="6"></textarea>
+
   <button type="submit">Send It</button>
 </form>
