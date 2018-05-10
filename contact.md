@@ -10,7 +10,7 @@ If you would prefer to encrypt this communication, you can use my [public key].
 
 <form
     accept-charset="UTF-8"
-    action="https://asimpleform.com/p/a883e17f-6a95-4d2d-a411-7d703eb0349b"
+    action="https://formspree.io/derekprior@gmail.com"
     method="post"
     class="contact-form"
     role="form">
