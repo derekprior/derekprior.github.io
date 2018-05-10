@@ -9,8 +9,7 @@ layout: default
       {% if post.external_url %}
       <a
         class="post-link external {{ post.external_site }}"
-        href="{{ post.external_url }}"
-        onclick="ga('send','event','External Links','{{ post.url }}')">
+        href="{{ post.external_url }}">
       {% else %}
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}
