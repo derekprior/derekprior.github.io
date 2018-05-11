@@ -4,7 +4,7 @@ email: derekprior@gmail.com
 description: >
   by Derek Prior, an experienced web developer based in Boston.
 baseurl: ""
-url: "http://www.prioritized.net"
+url: "https://www.prioritized.net"
 permalink: "/blog/:title"
 twitter_username: derekprior
 github_username:  derekprior
