@@ -47,9 +47,9 @@ those changes have throughout your application stack.
 
 ## Up & Down Again: A Migration's Tale
 
-You run rake db:migrate and rake db:schema:load regularly, but what do they
-actually do? How does rake db:rollback automatically reverse migrations and why
-can't it reverse all of them? How can you teach these tasks new tricks to
+You run `rake db:migrate` and `rake db:schema:load` regularly, but what do they
+actually do? How does `rake db:rollback` automatically reverse migrations and
+why can't it reverse all of them? How can you teach these tasks new tricks to
 support additional database constructs?
 
 We'll answer all of this and more as we explore the world of schema management
