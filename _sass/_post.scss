@@ -8,4 +8,8 @@
   ul {
     @extend %default-ul;
   }
+
+  iframe {
+    margin-bottom: $small-spacing;
+  }
 }

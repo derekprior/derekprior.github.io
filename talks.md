@@ -28,9 +28,7 @@ you the tools to get more from the code reviews you receive and have more impact
 with the reviews you leave for others, yielding your own strong code review
 culture.
 
-{% include youtube.html id=PJjmw9TRB7s %}
-
-[railsconf]: https://www.youtube.com/watch?v=PJjmw9TRB7s
+{% include youtube.html id="PJjmw9TRB7s" %}
 
 ## In Relentless Pursuit of REST
 
@@ -43,7 +41,7 @@ and make follow-on refactorings more natural. In this talk, you'll learn to
 refactor code to follow RESTful principles and to identify the positive impact
 those changes have throughout your application stack.
 
-{% include youtube.html id=HctYHe-YjnE %}
+{% include youtube.html id="HctYHe-YjnE" %}
 
 ## Up & Down Again: A Migration's Tale
 
@@ -56,3 +54,5 @@ We'll answer all of this and more as we explore the world of schema management
 in Rails. You will leave this talk with a deep understanding of how Rails
 manages schema, a better idea of its pitfalls, and ready to bend it to your
 will.
+
+{% include youtube.html id="_wR4NIQNmOI" %}
