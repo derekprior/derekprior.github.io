@@ -10,7 +10,7 @@ guest myself.
 ## The Bike Shed
 
 <div class="podcast">
-  <img src="/images/bikeshed.jpg" class="podcast-art">
+  <img src="/images/bikeshed.jpg" class="podcast-art" role="presentation">
   <p class="podcast-description">
     I was an original co-host of <a href="http://bikeshed.fm">The Bike Shed</a>,
     which is produced by thoughtbot. I was involved in all but a handful of the
