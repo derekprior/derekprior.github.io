@@ -4,12 +4,10 @@ title: Talks
 permalink: /talks/
 ---
 
-You can hear me talk about things on a weekly basis if you subscribe to [The
-Bike Shed], a technical discussion podcast that I co-host. I've also given the
-following prepared talks and am available to present them at your conference or
-to your coworkers. Please [contact me] if you are interested.
+I've given the following prepared talks at conferences and meetups and am
+available to present them or other topics at your conference, meetup, or to your
+coworkers. Please [contact me] if you are interested.
 
-[The Bike Shed]: http://bikeshed.fm
 [contact me]: /contact
 
 ## Cultivating a Code Review Culture
