@@ -2,7 +2,7 @@
 title: Testing Ruby Gems with GitHub Actions
 summary: Let's walk through how you can use GitHub Actions to test a Ruby gem,
   or any other Library, against an array of dependencies.
-date: 2020-02-21 22:00
+date: 2020-04-10 22:00
 ---
 
 [Scenic] is a Ruby gem that adds methods to `ActiveRecord::Migration` to create
