@@ -95,10 +95,12 @@ specify ("include") additional options for configurations that
 _are_ in the matrix. In our case, we use `include` to set `continue-on-error` to
 `true` whenever a configuration includes Rails master.
 
+{% raw %}
 ```yaml
     name: Ruby ${{ matrix.ruby }}, Rails ${{ matrix.rails }}
     runs-on: ubuntu-latest
 ```
+{% endraw %}
 
 We customize the name of the job as displayed on GitHub by setting `name`. In
 this case we do so referencing the configuration options we set in our matrix,
@@ -134,12 +136,14 @@ The `options` configuration ensures a health check succeeds before the workflow
 continues. This prevents potentially confusing errors surfacing later in the
 workflow run should Postgres fail to start cleanly.
 
+{% raw %}
 ```yaml
     env:
       RAILS_VERSION: ${{ matrix.rails }}
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "postgres"
 ```
+{% endraw %}
 
 `env` lets us specify environment variables that are available to all the steps
 in our job. It's also possible to specify root-level or step-level `env`. We use
@@ -169,12 +173,14 @@ This particular action clones our repository to our workspace.
 `actions/checkout` refers to the repository on GitHub where this action is
 defined and `@v2` refers specifically to the tag `v2` in that repository.
 
+{% raw %}
 ```yaml
       - name: Install Ruby ${{ matrix.ruby }}
         uses: ruby/setup-ruby@v1.14.1
         with:
           ruby-version: ${{ matrix.ruby }}
 ```
+{% endraw %}
 
 We're using another named action to install the version of Ruby the current
 configuration uses.
@@ -208,6 +214,7 @@ dependencies.
 We want the lockfile to be present so we can use it in our next step, which
 might save us the time of the dependency install step.
 
+{% raw %}
 ```yaml
       - name: Cache dependencies
         uses: actions/cache@v1
@@ -215,6 +222,7 @@ might save us the time of the dependency install step.
           path: vendor/bundle
           key: bundle-${{ hashFiles('Gemfile.lock') }}
 ```
+{% endraw %}
 
 We're using the cache action to cache the `vendor/bundle` path, which is where
 we will ultimately be installing our dependencies. We hash the contents of
@@ -299,6 +307,7 @@ test:
 
 Okay, let's get back to our Workflow file. We're finally ready to run our tests!
 
+{% raw %}
 ```yaml
       - name: Run fast tests
         run: bundle exec rake spec
@@ -308,6 +317,7 @@ Okay, let's get back to our Workflow file. We're finally ready to run our tests!
         run: bundle exec rake spec:acceptance
         continue-on-error: ${{ matrix.continue-on-error }}
 ```
+{% endraw %}
 
 Scenic has two different test suites. These can be run together with `rake`, but
 I prefer to run them as separate steps. The "fast tests" take less than three
