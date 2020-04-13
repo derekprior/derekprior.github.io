@@ -1,9 +1,14 @@
 code {
   color: $light-gray;
   font-family: Menlo, Monaco, "Courier New", monospace;
+  background-color: #eeeeee;
 }
 
 pre {
   overflow: auto;
   padding: $small-spacing;
+
+  code {
+    background-color: inherit;
+  }
 }
