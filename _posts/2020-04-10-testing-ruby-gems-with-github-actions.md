@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Testing Ruby Gems with GitHub Actions
 summary: Let's walk through how you can use GitHub Actions to test a Ruby gem,
   or any other Library, against an array of dependencies.

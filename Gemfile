@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6"
+gem "jekyll"
 gem "neat"
 gem "bitters"
 gem "rouge"
+gem "kramdown-parser-gfm"
+
+gem "webrick", "~> 1.7"
