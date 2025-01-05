@@ -7,7 +7,8 @@ baseurl: ""
 url: "https://www.prioritized.net"
 permalink: "/blog/:title"
 twitter_username: derekprior
-github_username:  derekprior
+github_username: derekprior
+include: [".well-known"]
 
 # build settings
 markdown: kramdown
