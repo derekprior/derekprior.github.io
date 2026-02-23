@@ -13,7 +13,7 @@ layout: default
       {% else %}
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}
-        <h2 class="post-title">{{ post.title }}</h2>
+        <h2 class="post-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
       </a>
       <p class="post-summary">
         {% if post.summary %}
