@@ -114,6 +114,23 @@
    Base: Typography
    ========================================================================== */
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.5em 1em;
+  background: var(--action-color);
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-weight: 900;
+  text-decoration: none;
+
+  &:focus {
+    left: 0;
+  }
+}
+
 body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
