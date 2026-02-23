@@ -526,144 +526,144 @@ tr, td, th {
 }
 
 /* ==========================================================================
-   Solarized Dark (syntax highlighting)
+   Dracula (syntax highlighting)
    ========================================================================== */
 
 .highlight,
-.gist-syntax .highlight { background-color: #002b36; color: #93a1a1 }
+.gist-syntax .highlight { background-color: #282a36; color: #f8f8f2 }
 .highlight .c,
-.gist-syntax .highlight .c { color: #586e75 }
+.gist-syntax .highlight .c { color: #6272a4 }
 .highlight .err,
-.gist-syntax .highlight .err { color: #93a1a1 }
+.gist-syntax .highlight .err { color: #f8f8f2 }
 .highlight .g,
-.gist-syntax .highlight .g { color: #93a1a1 }
+.gist-syntax .highlight .g { color: #f8f8f2 }
 .highlight .k,
-.gist-syntax .highlight .k { color: #859900 }
+.gist-syntax .highlight .k { color: #ff79c6 }
 .highlight .l,
-.gist-syntax .highlight .l { color: #93a1a1 }
+.gist-syntax .highlight .l { color: #f8f8f2 }
 .highlight .n,
-.gist-syntax .highlight .n { color: #93a1a1 }
+.gist-syntax .highlight .n { color: #f8f8f2 }
 .highlight .o,
-.gist-syntax .highlight .o { color: #859900 }
+.gist-syntax .highlight .o { color: #ff79c6 }
 .highlight .x,
-.gist-syntax .highlight .x { color: #cb4b16 }
+.gist-syntax .highlight .x { color: #f8f8f2 }
 .highlight .p,
-.gist-syntax .highlight .p { color: #93a1a1 }
+.gist-syntax .highlight .p { color: #f8f8f2 }
 .highlight .cm,
-.gist-syntax .highlight .cm { color: #586e75 }
+.gist-syntax .highlight .cm { color: #6272a4 }
 .highlight .cp,
-.gist-syntax .highlight .cp { color: #859900 }
+.gist-syntax .highlight .cp { color: #ff79c6 }
 .highlight .c1,
-.gist-syntax .highlight .c1 { color: #586e75 }
+.gist-syntax .highlight .c1 { color: #6272a4 }
 .highlight .cs,
-.gist-syntax .highlight .cs { color: #859900 }
+.gist-syntax .highlight .cs { color: #6272a4 }
 .highlight .gd,
-.gist-syntax .highlight .gd { color: #2aa198 }
+.gist-syntax .highlight .gd { color: #ff5555 }
 .highlight .ge,
-.gist-syntax .highlight .ge { color: #93a1a1; font-style: italic }
+.gist-syntax .highlight .ge { color: #f8f8f2; font-style: italic }
 .highlight .gr,
-.gist-syntax .highlight .gr { color: #dc322f }
+.gist-syntax .highlight .gr { color: #ff5555 }
 .highlight .gh,
-.gist-syntax .highlight .gh { color: #cb4b16 }
+.gist-syntax .highlight .gh { color: #f8f8f2; font-weight: bold }
 .highlight .gi,
-.gist-syntax .highlight .gi { color: #859900 }
+.gist-syntax .highlight .gi { color: #50fa7b }
 .highlight .go,
-.gist-syntax .highlight .go { color: #93a1a1 }
+.gist-syntax .highlight .go { color: #44475a }
 .highlight .gp,
-.gist-syntax .highlight .gp { color: #93a1a1 }
+.gist-syntax .highlight .gp { color: #f8f8f2 }
 .highlight .gs,
-.gist-syntax .highlight .gs { color: #93a1a1; font-weight: bold }
+.gist-syntax .highlight .gs { color: #f8f8f2; font-weight: bold }
 .highlight .gu,
-.gist-syntax .highlight .gu { color: #cb4b16 }
+.gist-syntax .highlight .gu { color: #6272a4; font-weight: bold }
 .highlight .gt,
-.gist-syntax .highlight .gt { color: #93a1a1 }
+.gist-syntax .highlight .gt { color: #f8f8f2 }
 .highlight .kc,
-.gist-syntax .highlight .kc { color: #cb4b16 }
+.gist-syntax .highlight .kc { color: #bd93f9 }
 .highlight .kd,
-.gist-syntax .highlight .kd { color: #268bd2 }
+.gist-syntax .highlight .kd { color: #8be9fd; font-style: italic }
 .highlight .kn,
-.gist-syntax .highlight .kn { color: #859900 }
+.gist-syntax .highlight .kn { color: #ff79c6 }
 .highlight .kp,
-.gist-syntax .highlight .kp { color: #859900 }
+.gist-syntax .highlight .kp { color: #ff79c6 }
 .highlight .kr,
-.gist-syntax .highlight .kr { color: #268bd2 }
+.gist-syntax .highlight .kr { color: #ff79c6 }
 .highlight .kt,
-.gist-syntax .highlight .kt { color: #dc322f }
+.gist-syntax .highlight .kt { color: #8be9fd }
 .highlight .ld,
-.gist-syntax .highlight .ld { color: #93a1a1 }
+.gist-syntax .highlight .ld { color: #f1fa8c }
 .highlight .m,
-.gist-syntax .highlight .m { color: #2aa198 }
+.gist-syntax .highlight .m { color: #bd93f9 }
 .highlight .s,
-.gist-syntax .highlight .s { color: #2aa198 }
+.gist-syntax .highlight .s { color: #f1fa8c }
 .highlight .na,
-.gist-syntax .highlight .na { color: #93a1a1 }
+.gist-syntax .highlight .na { color: #50fa7b }
 .highlight .nb,
-.gist-syntax .highlight .nb { color: #B58900 }
+.gist-syntax .highlight .nb { color: #8be9fd; font-style: italic }
 .highlight .nc,
-.gist-syntax .highlight .nc { color: #268bd2 }
+.gist-syntax .highlight .nc { color: #50fa7b }
 .highlight .no,
-.gist-syntax .highlight .no { color: #cb4b16 }
+.gist-syntax .highlight .no { color: #bd93f9 }
 .highlight .nd,
-.gist-syntax .highlight .nd { color: #268bd2 }
+.gist-syntax .highlight .nd { color: #50fa7b }
 .highlight .ni,
-.gist-syntax .highlight .ni { color: #cb4b16 }
+.gist-syntax .highlight .ni { color: #f8f8f2 }
 .highlight .ne,
-.gist-syntax .highlight .ne { color: #cb4b16 }
+.gist-syntax .highlight .ne { color: #ff5555 }
 .highlight .nf,
-.gist-syntax .highlight .nf { color: #268bd2 }
+.gist-syntax .highlight .nf { color: #50fa7b }
 .highlight .nl,
-.gist-syntax .highlight .nl { color: #93a1a1 }
+.gist-syntax .highlight .nl { color: #8be9fd }
 .highlight .nn,
-.gist-syntax .highlight .nn { color: #93a1a1 }
+.gist-syntax .highlight .nn { color: #f8f8f2 }
 .highlight .nx,
-.gist-syntax .highlight .nx { color: #93a1a1 }
+.gist-syntax .highlight .nx { color: #50fa7b }
 .highlight .py,
-.gist-syntax .highlight .py { color: #93a1a1 }
+.gist-syntax .highlight .py { color: #f8f8f2 }
 .highlight .nt,
-.gist-syntax .highlight .nt { color: #268bd2 }
+.gist-syntax .highlight .nt { color: #ff79c6 }
 .highlight .nv,
-.gist-syntax .highlight .nv { color: #268bd2 }
+.gist-syntax .highlight .nv { color: #8be9fd; font-style: italic }
 .highlight .ow,
-.gist-syntax .highlight .ow { color: #859900 }
+.gist-syntax .highlight .ow { color: #ff79c6 }
 .highlight .w,
-.gist-syntax .highlight .w { color: #93a1a1 }
+.gist-syntax .highlight .w { color: #f8f8f2 }
 .highlight .mf,
-.gist-syntax .highlight .mf { color: #2aa198 }
+.gist-syntax .highlight .mf { color: #bd93f9 }
 .highlight .mh,
-.gist-syntax .highlight .mh { color: #2aa198 }
+.gist-syntax .highlight .mh { color: #bd93f9 }
 .highlight .mi,
-.gist-syntax .highlight .mi { color: #2aa198 }
+.gist-syntax .highlight .mi { color: #bd93f9 }
 .highlight .mo,
-.gist-syntax .highlight .mo { color: #2aa198 }
+.gist-syntax .highlight .mo { color: #bd93f9 }
 .highlight .sb,
-.gist-syntax .highlight .sb { color: #586e75 }
+.gist-syntax .highlight .sb { color: #f1fa8c }
 .highlight .sc,
-.gist-syntax .highlight .sc { color: #2aa198 }
+.gist-syntax .highlight .sc { color: #f1fa8c }
 .highlight .sd,
-.gist-syntax .highlight .sd { color: #93a1a1 }
+.gist-syntax .highlight .sd { color: #6272a4 }
 .highlight .s2,
-.gist-syntax .highlight .s2 { color: #2aa198 }
+.gist-syntax .highlight .s2 { color: #f1fa8c }
 .highlight .se,
-.gist-syntax .highlight .se { color: #cb4b16 }
+.gist-syntax .highlight .se { color: #ff79c6 }
 .highlight .sh,
-.gist-syntax .highlight .sh { color: #93a1a1 }
+.gist-syntax .highlight .sh { color: #f1fa8c }
 .highlight .si,
-.gist-syntax .highlight .si { color: #2aa198 }
+.gist-syntax .highlight .si { color: #f1fa8c }
 .highlight .sx,
-.gist-syntax .highlight .sx { color: #2aa198 }
+.gist-syntax .highlight .sx { color: #f1fa8c }
 .highlight .sr,
-.gist-syntax .highlight .sr { color: #dc322f }
+.gist-syntax .highlight .sr { color: #ff5555 }
 .highlight .s1,
-.gist-syntax .highlight .s1 { color: #2aa198 }
+.gist-syntax .highlight .s1 { color: #f1fa8c }
 .highlight .ss,
-.gist-syntax .highlight .ss { color: #2aa198 }
+.gist-syntax .highlight .ss { color: #f1fa8c }
 .highlight .bp,
-.gist-syntax .highlight .bp { color: #268bd2 }
+.gist-syntax .highlight .bp { color: #8be9fd; font-style: italic }
 .highlight .vc,
-.gist-syntax .highlight .vc { color: #268bd2 }
+.gist-syntax .highlight .vc { color: #8be9fd; font-style: italic }
 .highlight .vg,
-.gist-syntax .highlight .vg { color: #268bd2 }
+.gist-syntax .highlight .vg { color: #8be9fd; font-style: italic }
 .highlight .vi,
-.gist-syntax .highlight .vi { color: #268bd2 }
+.gist-syntax .highlight .vi { color: #8be9fd; font-style: italic }
 .highlight .il,
-.gist-syntax .highlight .il { color: #2aa198 }
+.gist-syntax .highlight .il { color: #bd93f9 }
