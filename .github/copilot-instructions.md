@@ -29,13 +29,9 @@ directly to the external URL.
 
 ## Styles
 
-Sass lives in `_sass/` and is compiled through `css/main.scss`. Partials are
-named by the component they style (e.g., `_post.scss`, `_footer.scss`). Base
-styles (typography, forms, buttons, etc.) live in `_sass/base/`.
-
-Sass variables for colors, spacing, and breakpoints are defined in
-`_sass/base/_variables.scss` and `_sass/base/_grid-settings.scss`. Use plain
-CSS features — no Bourbon, Neat, or other mixin libraries.
+Styles live in `css/main.css` as plain CSS (no preprocessor). CSS custom
+properties defined in `:root` are used for colors, spacing, fonts, and
+breakpoints. CSS nesting is used for component styles.
 
 ## Permalink Structure
 
