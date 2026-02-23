@@ -189,7 +189,7 @@ input, label, select {
 }
 
 label {
-  font-weight: 600;
+  font-weight: 900;
   margin-bottom: 0.4em;
 
   &.required::after {
@@ -279,7 +279,7 @@ dl {
   margin-bottom: var(--small-spacing);
 
   & dt {
-    font-weight: bold;
+    font-weight: 900;
     margin-top: var(--small-spacing);
   }
 
@@ -321,7 +321,7 @@ table {
 
 th {
   border-bottom: 1px solid var(--border-color-dark);
-  font-weight: 600;
+  font-weight: 900;
   padding: var(--small-spacing) 0;
   text-align: left;
 }
@@ -356,7 +356,7 @@ tr, td, th {
 
 .site-title {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .site-title-link {
@@ -436,7 +436,7 @@ tr, td, th {
 
 .post-title {
   font-size: 2.0em;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 /* ==========================================================================
@@ -514,7 +514,7 @@ tr, td, th {
       color: var(--footer-text);
       display: inline-block;
       font-family: var(--heading-font-family);
-      font-weight: 500;
+      font-weight: 300;
       font-size: 0.95em;
 
       &:not(:first-child) {
