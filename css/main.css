@@ -408,7 +408,7 @@ tr, td, th {
       display: block;
 
       &.thoughtbot::before {
-        background: url("ralph.png") no-repeat;
+        background: url("ralph-light.png") no-repeat;
         background-size: cover;
         content: " ";
         display: inline-block;
@@ -417,6 +417,10 @@ tr, td, th {
         margin-top: 12px;
         position: absolute;
         width: 26px;
+
+        @media (prefers-color-scheme: dark) {
+          background-image: url("ralph-dark.png");
+        }
       }
     }
   }
