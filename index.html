@@ -5,7 +5,7 @@ layout: default
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-list-item">
-      <time class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</time>
+      <time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
       {% if post.external_url %}
       <a
         class="post-link external {{ post.external_site }}"

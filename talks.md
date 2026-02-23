@@ -26,7 +26,7 @@ you the tools to get more from the code reviews you receive and have more impact
 with the reviews you leave for others, yielding your own strong code review
 culture.
 
-{% include youtube.html id="PJjmw9TRB7s" %}
+{% include youtube.html id="PJjmw9TRB7s" title="Cultivating a Code Review Culture - Derek Prior" %}
 
 ## In Relentless Pursuit of REST
 
@@ -39,7 +39,7 @@ and make follow-on refactorings more natural. In this talk, you'll learn to
 refactor code to follow RESTful principles and to identify the positive impact
 those changes have throughout your application stack.
 
-{% include youtube.html id="HctYHe-YjnE" %}
+{% include youtube.html id="HctYHe-YjnE" title="In Relentless Pursuit of REST - Derek Prior" %}
 
 ## Up & Down Again: A Migration's Tale
 
@@ -53,4 +53,4 @@ in Rails. You will leave this talk with a deep understanding of how Rails
 manages schema, a better idea of its pitfalls, and ready to bend it to your
 will.
 
-{% include youtube.html id="_wR4NIQNmOI" %}
+{% include youtube.html id="_wR4NIQNmOI" title="Up & Down Again: A Migration's Tale - Derek Prior" %}
