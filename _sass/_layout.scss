@@ -1,3 +1,5 @@
 .container {
-  @include outer-container;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 1em;
 }

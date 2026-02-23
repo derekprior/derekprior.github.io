@@ -3,7 +3,7 @@
   flex-direction: column;
   margin-bottom: $base-spacing;
 
-  @include media($medium-screen-up) {
+  @media (min-width: $medium-screen) {
     flex-direction: row;
   }
 }
@@ -11,7 +11,7 @@
 .podcast-art {
   margin-bottom: $small-spacing;
 
-  @include media($medium-screen-up) {
+  @media (min-width: $medium-screen) {
     height: 100px;
     margin-right: $small-spacing;
     margin-top: $small-spacing/2;

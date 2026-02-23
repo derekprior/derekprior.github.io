@@ -1,6 +1,8 @@
-#{$all-button-inputs},
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
 button {
-  @include appearance(none);
+  appearance: none;
   -webkit-font-smoothing: antialiased;
   background-color: $action-color;
   border-radius: $base-border-radius;

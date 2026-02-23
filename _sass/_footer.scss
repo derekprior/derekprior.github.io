@@ -5,13 +5,15 @@
 
   .container {
     padding: 2em;
+
+    @media (min-width: $medium-screen) {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0 1em;
+    }
   }
 
   .footer-photo {
-    @include media($medium-screen-up) {
-      @include span-columns(1);
-    }
-
     text-align: center;
 
     img {
@@ -26,7 +28,7 @@
       margin: $small-spacing 0;
       text-align: center;
 
-      @include media($medium-screen-up) {
+      @media (min-width: $medium-screen) {
         margin-top: 0;
         text-align: left;
       }
@@ -35,12 +37,6 @@
     p {
       text-align: left;
     }
-
-    @include media($medium-screen-up) {
-      @include span-columns(3);
-      @include omega();
-    }
-
   }
 
   .social-links {
@@ -55,7 +51,7 @@
       }
     }
 
-    @include media($medium-screen-up) {
+    @media (min-width: $medium-screen) {
       text-align: left;
     }
   }

@@ -14,7 +14,7 @@
     margin-bottom: $small-spacing/2;
   }
 
-  @include media($large-screen-up) {
+  @media (min-width: $large-screen) {
     &.external {
       display: block;
 
