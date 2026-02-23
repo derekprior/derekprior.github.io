@@ -508,13 +508,22 @@ tr, td, th {
 
   & .social-links {
     text-align: center;
+    margin-bottom: var(--small-spacing);
 
     & a {
       color: var(--footer-text);
-      margin-bottom: var(--small-spacing);
+      display: inline-block;
+      font-family: var(--heading-font-family);
+      font-weight: 500;
+      font-size: 0.95em;
 
       &:not(:first-child) {
         padding-left: 1em;
+      }
+
+      & svg {
+        vertical-align: -0.15em;
+        margin-right: 0.2em;
       }
     }
 
